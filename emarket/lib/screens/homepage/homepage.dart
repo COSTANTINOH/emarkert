@@ -17,7 +17,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
 
   /// ImageSlider in header
   var imageSlider = Container(
-    height: 250.0,
+    height: 200.0,
     child: new Carousel(
       boxFit: BoxFit.cover,
       dotColor: Color(0xFF6991C7).withOpacity(0.8),

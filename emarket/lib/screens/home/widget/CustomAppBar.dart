@@ -96,7 +96,7 @@ class _AppbarGradientState extends State<AppbarGradient> {
             child: Container(
               margin: EdgeInsets.only(left: media.padding.left + 5),
               height: 40.0,
-              width: deviceHeight(context) / 2.5,
+              width: deviceHeight(context) / 3,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.all(
@@ -123,11 +123,12 @@ class _AppbarGradientState extends State<AppbarGradient> {
                     child: Text(
                       "isoft plaza",
                       style: TextStyle(
-                          fontFamily: "Popins",
-                          color: Colors.black12,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 0.0,
-                          fontSize: 16.4),
+                        fontFamily: "Roboto",
+                        color: Colors.black12,
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 0.0,
+                        fontSize: 16.4,
+                      ),
                     ),
                   ),
                 ],

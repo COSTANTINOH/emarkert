@@ -19,7 +19,7 @@ class FlashSell extends StatelessWidget {
     int hourstime, minute, second = 0;
 
     return Container(
-      height: 390.0,
+      height: 300.0,
 
       /// To set FlashSale Scrolling horizontal
       child: Column(
